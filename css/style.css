@@ -89,7 +89,7 @@ li{
 .bg-color-purple{
     background-color: rgb(150, 146, 222);
     width: 100%;
-    height: 100px;
+    height: 300px;
     margin: 80px 0 55px 0;
 }
 
@@ -123,7 +123,31 @@ li{
     margin: 50px 0 30px 0;
 }
 
-/* four section */
+/* fourth section */
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+/* fifth section */
+
+
+
+/* sixth section */
+
+.container-end{
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
 
 
 
