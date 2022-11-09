@@ -63,6 +63,27 @@ li{
 
 /* MAIN */
 
+/* prima sezione */
 
+.row .col-65, .row .col-30{
+    margin-top: 40px
+}
+
+.col-65{
+    width: 65%;
+    height: 100px;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.col-30{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(172, 172, 183);
+    border-radius: 15px;
+    
+}
+
+/* seconda sezione */
 
 
