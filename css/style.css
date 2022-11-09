@@ -238,6 +238,7 @@ p{
 
 .wrap{
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 .col .h1-white{
@@ -266,8 +267,49 @@ p{
 
 /* fifth section */
 
+.align{
+    align-items: flex-start;
+}
+
+.col-big{
+    width: 65%;
+}
+
+.col-big h1{
+    font-size: 40px;
+    color: rgb(150, 146, 222);
+}
+
+.col-big p{
+    margin: 40px 0 40px 0;
+    font-size: 15px;
+    line-height: 30px;
+}
 
 
+.col-small{
+    width: 20%;
+    position: relative;
+}
+
+.testimonial .fa-quote-left{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    font-size: 70px;
+    color: rgb(150, 146, 222);
+}
+
+.col-small h2{
+    color: rgb(150, 146, 222);
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+}
+
+.col-small button{
+    font-size: 12px;
+    padding: 10px;
+}
 /* sixth section */
 
 .container-end{
