@@ -240,6 +240,30 @@ p{
     flex-wrap: wrap;
 }
 
+.col .h1-white{
+    padding: 20px;
+    color: white;
+}
+
+.numbers{
+    color: rgb(150, 146, 222);
+    font-size: 20px;
+}
+
+.white h2{
+    color: rgb(150, 146, 222);
+    font-size: 17px;
+    margin: 15px 0 15px 0;
+}
+
+.purple-light{
+    background-color: rgb(150, 146, 222);
+    color: white;
+    padding: 7px 35px 7px 35px;
+    margin: 15px 0 15px 0;
+    letter-spacing: 2px;
+}
+
 /* fifth section */
 
 
