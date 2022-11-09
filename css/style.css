@@ -30,7 +30,7 @@ header{
     align-items: center;
 }
 
-.col-50{
+.col-header{
     text-align: center;
     vertical-align: middle;
 }
@@ -63,7 +63,7 @@ li{
 
 /* MAIN */
 
-/* prima sezione */
+/* first section */
 
 .row .col-65, .row .col-30{
     margin-top: 40px
@@ -84,6 +84,21 @@ li{
     
 }
 
-/* seconda sezione */
+/* second section */
 
+.bg-color-purple{
+    background-color: rgb(150, 146, 222);
+    width: 100%;
+    height: 100px;
+    margin: 80px 0 55px 0;
+}
+
+.col-50{
+    width: calc(100% / 2);
+    height: 70px;
+    text-align: center;
+    background-color: yellow;
+}
+
+/* third section */
 
