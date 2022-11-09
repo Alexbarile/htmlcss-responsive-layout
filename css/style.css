@@ -317,6 +317,19 @@ p{
     margin: 0 auto;
 }
 
+/* .row-main h3{
+    color: rgba(255, 255, 255, 0.639);
+}
+
+.row-main h2{
+    color: white;
+    font-size: 45px;
+}
+
+.row-main h1{
+    color: rgb(0, 181, 0);
+    font-size: 70px;
+} */
 
 /* FOOTER */
 
@@ -326,6 +339,9 @@ footer{
     height: 200px;
 }
 
+footer .col{
+    color: white;
+}
 
 
 
