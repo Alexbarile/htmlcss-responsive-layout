@@ -110,7 +110,6 @@ li{
 
 .col-30{
     width: 30%;
-    min-height: 200px;
     padding: 15px;
     border-radius: 15px;
 }
@@ -446,7 +445,11 @@ footer a{
     .col-small{
         width: 40%;
     }
-    
+
+    .col-30{
+        width: 100%;
+    }
+
 
 
 }
