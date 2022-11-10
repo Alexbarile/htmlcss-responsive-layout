@@ -90,16 +90,28 @@ li{
 
 .col-65{
     width: 65%;
-    padding: 29px;
     background-color: rgb(211, 211, 255);
     border-radius: 15px;
     display: flex;
-    align-items: flex-start;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+}
+
+.col-one, .col-center{
+    padding: 10px;
+}
+
+.col-center{ 
+    text-align: center;
 }
 
 .col-30{
     width: 30%;
-    padding: 20px;
+    min-height: 200px;
+    padding: 15px;
     border-radius: 15px;
 }
 
@@ -123,11 +135,11 @@ li{
 
 p{
     font-size: 13px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .col-one p{
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 40px 0px;
 }
 
 .purple{
@@ -137,15 +149,13 @@ p{
     letter-spacing: 2px;
 }
 
-.col-one{
-    width: 50%;
-    position: relative;
+button a{
+    text-decoration: none;
+    color: white;
 }
 
 .img-phone img{
-    width: 67%;
-    position: absolute;
-    left: 45px;
+    width: 100%;
 }
 
 /* second section */
@@ -242,6 +252,7 @@ p{
 
 .wrap{
     flex-wrap: wrap;
+    align-items: stretch;
     padding-bottom: 50px;
 }
 
@@ -379,8 +390,8 @@ footer a{
 /* RESPONSIVE */
 
 @media screen and (max-width: 992px) {
-    .header{
-        width: 90%;
+    .container{
+        width: 70%;
     }
 
     .hamburger{
@@ -391,14 +402,15 @@ footer a{
         display: none;
     }
     
-    .col-65{
+    .content{
         flex-direction: column;
-        height: 400px;
     }
 
-    .col-50{
-        width: 70%;
+    .img-phone{
+        width: 60%;
     }
+
+    
 }
 
 
