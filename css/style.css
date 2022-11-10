@@ -240,13 +240,13 @@ button a{
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    margin-right: 30px;
+    
     object-fit: cover
 }
 
 .col-text p, .col-text h3{
     color: white;
-    padding: 10px;
+    padding: 10px 0 10px 30px;
 }
 
 /* fourth section */
@@ -410,24 +410,32 @@ footer a{
     }
 
     .img-phone{
-        width: 60%;
+        width: 50%;
     }
 
     .baseline{
         flex-direction: column;
         text-align: center;
         align-items: center;
-        padding: 20px;
+        padding: 30px;
+    }
+
+    .col-50, .col-50 .center{
+        width: 80%;
+    }
+
+    .white{
+        width: 45%
+    }
+
+    .fa-quote-left{
+        left: 110px;
     }
 }
 
 /* smartphone */
 
 @media screen and (max-width: 576px) {
-    .container, .container-end{
-        width: 80%;
-    }
-
     .row-main{
         flex-direction: column;
         text-align: center;
@@ -442,16 +450,9 @@ footer a{
         flex-direction: column;
     }
 
-    .col-small{
-        width: 40%;
-    }
-
-    .col-30{
+    .col-small, .col-big, .col-65, .col-30, .col-50, .col-50 .center{
         width: 100%;
     }
-
-
-
 }
 
 
