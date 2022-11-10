@@ -425,7 +425,30 @@ footer a{
 /* smartphone */
 
 @media screen and (max-width: 576px) {
+    .container, .container-end{
+        width: 80%;
+    }
+
+    .row-main{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wrap, .align{
+        flex-direction: column;
+        align-items: center;
+    }
     
+    .col-card{
+        flex-direction: column;
+    }
+
+    .col-small{
+        width: 40%;
+    }
+    
+
+
 }
 
 
