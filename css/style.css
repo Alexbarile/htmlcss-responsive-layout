@@ -379,12 +379,8 @@ footer a{
 /* RESPONSIVE */
 
 @media screen and (max-width: 992px) {
-    .container{
+    .header{
         width: 90%;
-    }
-
-    .bg-color-purple{
-        width: 100%;
     }
 
     .hamburger{
@@ -395,8 +391,9 @@ footer a{
         display: none;
     }
     
-    .container-end{
+    .col-65{
         flex-direction: column;
+        height: 400px;
     }
 
     .col-50{
