@@ -94,6 +94,7 @@ li{
     background-color: rgb(211, 211, 255);
     border-radius: 15px;
     display: flex;
+    align-items: flex-start;
 }
 
 .col-30{
@@ -142,9 +143,8 @@ p{
 }
 
 .img-phone img{
-    width: 70%;
+    width: 67%;
     position: absolute;
-    top: -10px;
     left: 45px;
 }
 
@@ -378,6 +378,30 @@ footer a{
 
 /* RESPONSIVE */
 
+@media screen and (max-width: 992px) {
+    .container{
+        width: 90%;
+    }
 
+    .bg-color-purple{
+        width: 100%;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .navigation{
+        display: none;
+    }
+    
+    .container-end{
+        flex-direction: column;
+    }
+
+    .col-50{
+        width: 70%;
+    }
+}
 
 
