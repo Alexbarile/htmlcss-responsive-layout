@@ -391,9 +391,11 @@ footer a{
 
 /* RESPONSIVE */
 
+/* tablet */
+
 @media screen and (max-width: 992px) {
-    .container, .bg-color-purple, footer{
-        width: 70%;
+    .container, .container-end{
+        width: 80%;
     }
 
     .hamburger{
@@ -412,6 +414,17 @@ footer a{
         width: 60%;
     }
 
+    .baseline{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+/* smartphone */
+
+@media screen and (max-width: 576px) {
     
 }
 
