@@ -8,7 +8,9 @@ body{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+
 /* HEADER */
+
 
 header{
     width: 100%;
@@ -77,6 +79,7 @@ li{
 
 
 /* MAIN */
+
 
 /* first section */
 
@@ -232,7 +235,6 @@ p{
 .col-text p, .col-text h3{
     color: white;
     padding: 10px;
-
 }
 
 /* fourth section */
@@ -286,7 +288,6 @@ p{
     font-size: 15px;
     line-height: 30px;
 }
-
 
 .col-small{
     width: 20%;
@@ -355,6 +356,7 @@ p{
 
 /* FOOTER */
 
+
 footer{
     background-color: rgba(0, 0, 0, 0.811);
     width: 100%;
@@ -371,6 +373,10 @@ footer p{
 footer a{
     color: rgb(109, 109, 255);
 }
+
+
+/* RESPONSIVE */
+
 
 
 
